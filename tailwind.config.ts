@@ -13,7 +13,7 @@ const config = {
     colors: {
       'white': '#ffffff',
       'bezova': '#ECE5C7',
-      'zelena': '#A0C49D',
+      'zelena': '#CCE2CB',
     },
     container: {
       center: true,
@@ -38,6 +38,7 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
+    
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config
