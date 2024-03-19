@@ -1,7 +1,9 @@
 import About from "@/components/About";
 import Areal from "@/components/Areal";
 import Day from "@/components/Day";
+import Food from "@/components/Food";
 import Hero from "@/components/Hero";
+import People from "@/components/People";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,7 +12,9 @@ export default function Home() {
       <Hero/>
       <About/>
       <Day/>
+      <Food/>
       <Areal/>
+      <People/>
     </main>
   );
 }
