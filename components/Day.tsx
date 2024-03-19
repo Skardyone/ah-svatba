@@ -26,7 +26,7 @@ function Day() {
         </div>
         <div className='xl:h-[25vh] w-full flex flex-col space-y-10 xl:space-y-0 xl:flex-row items-center justify-evenly border-t-2 border-bezova py-8 xl:py-4'>
             <div className='h-full w-full xl:w-[10%] flex flex-col items-center justify-around'>
-                <span className='text-[3rem]'><MdAirplanemodeActive /></span>
+                <span className='text-[3rem] text-zelena'><MdAirplanemodeActive /></span>
                 <div className='flex flex-col items-center justify-center text-xl font-bold'>
                     <p>11:00</p>
                     <p>Příjezd hostů</p>

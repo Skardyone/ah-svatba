@@ -1,17 +1,32 @@
 import React from "react";
-import { Allura } from "next/font/google";
+import { Allura, Corinthia } from "next/font/google";
 
 const allura = Allura({ weight: "400", subsets: ["latin"] });
+const corinthia = Corinthia({ weight: "400", subsets: ["latin"] });
 
 function Herotext() {
   return (
-    <div className={allura.className}>
-      <div className="z-50 flex flex-col lg:flex-row text-center md:gap-5 xl:gap-16">
-        <span className="text-[5rem] md:text-[8rem] lg:text-[11rem] flex flex-col items-center justify-center">
-          Hedvika
+    <div className={corinthia.className}>
+      <div className="z-50 flex flex-col lg:flex-row text-center justify-center items-center md:gap-5  lg:gap-16">
+        <div className="flex flex-col items-center">
+          <span className="text-[5rem] md:text-[8rem] lg:text-[11rem] ">
+            Hedvika
+          </span>
+          <span className="relative -top-12 lg:-top-24 text-[3rem] md:text-[5rem] lg:text-[4rem]">
+            Černá
+          </span>
+        </div>
+        <span className="text-[3rem] md:text-[5rem] lg:text-[7rem] flex flex-col items-center justify-center">
+          &
         </span>
-        <span className='text-[3rem] md:text-[5rem] lg:text-[7rem] flex flex-col items-center justify-center'>&</span>
-        <span className='text-[5rem] md:text-[8rem] lg:text-[11rem] flex flex-col items-center justify-center'>Adam</span>
+        <div className="flex flex-col items-center">
+          <span className="text-[5rem] md:text-[8rem] lg:text-[11rem] ">
+            Adam
+          </span>
+          <span className="relative -top-12 lg:-top-24 text-[3rem] md:text-[5rem] lg:text-[4rem]">
+            Javornícky
+          </span>
+        </div>
       </div>
     </div>
   );

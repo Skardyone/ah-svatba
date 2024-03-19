@@ -18,21 +18,21 @@ function About() {
           numquam voluptate perferendis architecto cumque, autem tempora
         </p>
       </div>
-      <div className="relative min-h-[100svh] -top-24 md:-top-36 space-y-6 md:space-y-10 lg:space-y-0 w-full p-8 lg:p-4 flex flex-col lg:flex-row items-center justify-evenly ">
+      <div className="relative min-h-[100svh] -top-24 md:-top-40 2xl:-top-60 space-y-6 md:space-y-10 lg:space-y-0 w-full p-8 lg:p-4 flex flex-col lg:flex-row items-center justify-evenly ">
         <div className="relative h-[50vh] lg:h-[70vh] w-full lg:w-[22%] bg-bezova rounded-md">
           <Image src={"/img-855.jpg"} alt="img1" fill className="object-cover object-center rounded-md ring-4 ring-bezova ring-offset-8 ring-opacity-50"/>
         </div>
         <div className="relative h-[50vh] lg:h-[70vh] w-full lg:w-[22%]  bg-bezova rounded-md">
         <Image src={"/img-856.jpg"} alt="img1" fill className="object-cover object-center rounded-md ring-4 ring-bezova ring-offset-8 ring-opacity-50"/>
         </div>
-        <div className="relative h-[50vh] lg:h-[70vh] w-full lg:w-[22%]  bg-bezova rounded-md">
+        <div className=" relative h-[50vh] lg:h-[70vh] w-full lg:w-[22%]  bg-bezova rounded-md">
         <Image src={"/img-857.jpg"} alt="img1" fill className="object-cover object-center rounded-md ring-4 ring-bezova ring-offset-8 ring-opacity-50"/>
         </div>
-        <div className="relative h-[50vh] lg:h-[70vh] w-full lg:w-[22%]  bg-bezova rounded-md">
+        <div className=" relative h-[50vh] lg:h-[70vh] w-full lg:w-[22%]  bg-bezova rounded-md">
         <Image src={"/img-858.jpg"} alt="img1" fill className="object-cover object-center rounded-md ring-4 ring-bezova ring-offset-8 ring-opacity-50"/>
         </div>
       </div>
-      <div className="relative -top-16 lg:-top-28 h-[2px] w-3/4 mx-auto bg-zelena"></div>
+      <div className="relative -top-16 lg:-top-32 2xl:-top-48 h-[2px] w-3/4 mx-auto bg-zelena"></div>
     </div>
   );
 }
