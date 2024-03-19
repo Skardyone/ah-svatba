@@ -13,7 +13,8 @@ const Map = () => {
     useEffect(() => {
      const initMap = async () => {
         const loader = new Loader({
-            apiKey: process.env.NEXT_PUBLIC_MAPS_API_KEY as string,
+            //apiKey: process.env.NEXT_PUBLIC_MAPS_API_KEY as string,
+            apiKey: "AIzaSyBwfiQ4PjnDzgA4rj6P6YS1YRv3N1r8UDU",
             version: "weekly"
         })
 
