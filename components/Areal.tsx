@@ -25,7 +25,7 @@ function Areal() {
         </div>
         <div className="w-full h-[30vh] xl:h-1/2 bg-bezova">
           <Carousel opts={{ loop:true}} className="relative w-full h-full">
-            <CarouselContent className="w-full xl:h-[40vh]">
+            <CarouselContent className="w-full h-[30vh] lg:h-[40vh]">
               <CarouselItem className="h-full w-full">
                 <div className="w-full h-full relative">
                   <Image
@@ -52,7 +52,7 @@ function Areal() {
           </Carousel>
         </div>
       </div>
-      <div className="h-[50vh] xl:h-full w-full flex flex-row items-center justify-center bg-bezova">
+      <div className="lg:h-[80vh] h-[50vh] xl:h-full w-full flex flex-row items-center justify-center bg-bezova">
         <Map />
       </div>
     </div>
