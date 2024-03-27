@@ -9,7 +9,7 @@ function About() {
           Vítejte na našem svatebním webu, kde jsme se rozhodli sdílet svou
           cestu k oltáři. Naše společná cesta začala před více jak dvaceti lety
           na základní škole, kdy ani jednoho z nás nenapadlo, že si jednoho dne
-          řekneme své "ANO". Spousta bláznivých zážitků byla zakončena tanečním
+          řekneme své ANO. Spousta bláznivých zážitků byla zakončena tanečním
           kurzem, kde jsme si nevědomky natrénovali kroky na první novomanželský
           tanec. Ačkoli byly poté naše životní směry rozdílné, dokázali jsme si
           k sobě opět najít cestu a nyní plánujeme společný život. Takže, naše
