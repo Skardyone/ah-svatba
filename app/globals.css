@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face{
+        @import url('https://fonts.cdnfonts.com/css/now');
+    }
+}
+
+@import url("https://use.typekit.net/fxw5jnj.css");

@@ -18,25 +18,25 @@ import { PiSneakerMoveBold } from "react-icons/pi";
 function Day() {
   return (
     <div className=" xl:h-screen w-full py-6 px-8 xl:py-16 flex flex-col items-center xl:space-y-10">
-      <h2 className="text-center uppercase font-bold m-4 text-[2rem] xl:text-[4rem]">
+      <h2 className="text-center uppercase  m-4 text-[2rem] xl:text-[4rem]">
         svatební den
       </h2>
       <div className="w-full h-[25vh] xl:h-[30vh] flex flex-row xl:flex-row items-center justify-around">
-        <div className="h-full w-1/2 flex flex-col items-center justify-center xl:justify-around">
-          <span className="text-[1.5rem] font-bold">Datum</span>
+        <div className="h-full w-1/2 flex flex-col items-center justify-center xl:justify-around xl:space-y-5">
+          <span className="text-[1.5rem] ">Datum</span>
           <span className="text-[5rem] xl:text-[6rem]">
             <FaRegCalendarAlt />
           </span>
-          <div className="flex flex-col items-center justify-center text-xl font-bold">
+          <div className="flex flex-col items-center justify-center text-xl ">
             <p>10.8.2024</p>
           </div>
         </div>
         <div className="h-full w-1/2 flex flex-col items-center justify-center xl:justify-around">
-          <span className="text-[1.5rem] font-bold">Místo</span>
+          <span className="text-[1.5rem] ">Místo</span>
           <span className="text-[5rem] xl:text-[6rem]">
             <MdPlace />
           </span>
-          <div className="flex flex-col items-center justify-center text-xl font-bold text-center">
+          <div className="flex flex-col items-center justify-center text-xl  text-center">
             <p>Statek Háječek</p>
           </div>
         </div>
@@ -57,7 +57,7 @@ function Day() {
             <span className="text-[3rem] md:text-[4rem] xl:text-[5rem]">
               <FaCarAlt />
             </span>
-            <div className="flex flex-col items-center justify-center text-center font-bold md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
+            <div className="flex flex-col items-center justify-center text-center  md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
               <p>11:00 - 12:00</p>
               <p>Příjezd hostů</p>
             </div>
@@ -66,7 +66,7 @@ function Day() {
             <span className="text-[3rem] md:text-[4rem] xl:text-[5rem]">
               <GiLinkedRings />
             </span>
-            <div className="flex flex-col items-start lg:items-center justify-center text-center font-bold  md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
+            <div className="flex flex-col items-start lg:items-center justify-center text-center   md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
               <p>13:00</p>
               <p>Svatební obřad</p>
             </div>
@@ -75,7 +75,7 @@ function Day() {
             <span className="text-[3rem] md:text-[4rem] xl:text-[5rem]">
               <MdOutlinePhotoCamera />
             </span>
-            <div className="flex flex-col items-center justify-center text-center font-bold md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
+            <div className="flex flex-col items-center justify-center text-center  md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
               <p>Společné focení</p>
             </div>
           </div>
@@ -83,7 +83,7 @@ function Day() {
             <span className="text-[3rem] md:text-[4rem] xl:text-[5rem]">
               <GiKnifeFork />
             </span>
-            <div className="flex flex-col items-center justify-center text-center font-bold md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
+            <div className="flex flex-col items-center justify-center text-center  md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
               <p>Slavnostní hostina</p>
             </div>
           </div>
@@ -91,7 +91,7 @@ function Day() {
             <span className="text-[3rem] md:text-[4rem] xl:text-[5rem]">
               <GiStairsCake />
             </span>
-            <div className="flex flex-col items-center justify-center text-center font-bold md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
+            <div className="flex flex-col items-center justify-center text-center  md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
               <p>Krájení dortu</p>
             </div>
           </div>
@@ -99,7 +99,7 @@ function Day() {
             <span className="text-[3rem] md:text-[4rem] xl:text-[5rem]">
               <PiSneakerMoveBold />
             </span>
-            <div className="flex flex-col items-center justify-center text-center font-bold md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
+            <div className="flex flex-col items-center justify-center text-center  md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
               <p>Novomanželský tanec</p>
             </div>
           </div>
@@ -107,7 +107,7 @@ function Day() {
             <span className="text-[3rem] md:text-[4rem] xl:text-[5rem]">
               <MdPhotoCameraFront />
             </span>
-            <div className="flex flex-col items-center justify-center text-center font-bold md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
+            <div className="flex flex-col items-center justify-center text-center  md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
               <p>Fotokoutek</p>
             </div>
           </div>
@@ -115,7 +115,7 @@ function Day() {
             <span className="text-[3rem] md:text-[4rem] xl:text-[5rem]">
               <GiMusicalNotes />
             </span>
-            <div className="flex flex-col items-center justify-center text-center font-bold md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
+            <div className="flex flex-col items-center justify-center text-center  md:text-[1.5rem] xl:text-[1rem] 2xl:text-[1.6rem]">
               <p>Večerní zábava</p>
             </div>
           </div>

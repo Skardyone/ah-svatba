@@ -26,6 +26,11 @@ const config = {
         "2xl": "1400px",
       },
     },
+    
+    fontFamily: {
+      now : ["Now","sans-serif"],
+      seasons : ["the-seasons","sans-serif"],
+    },
     extend: {
       keyframes: {
         "accordion-down": {

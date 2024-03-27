@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="min-h-screen w-full">
       <div className="h-[90vh] md:h-[70vh] w-full bg-zelena flex flex-row justify-center items-center lg:py-8">
-        <p className="w-full p-6 md:p-10 lg:w-[70%] text-base md:text-xl lg:text-xl font-bold tracking-wider lin">
+        <p className="w-full p-6 md:p-10 lg:w-[70%] text-base md:text-xl lg:text-2xl font-light tracking-wider">
           Vítejte na našem svatebním webu, kde jsme se rozhodli sdílet svou
           cestu k oltáři. Naše společná cesta začala před více jak dvaceti lety
           na základní škole, kdy ani jednoho z nás nenapadlo, že si jednoho dne
