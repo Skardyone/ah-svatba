@@ -12,7 +12,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="cs">
       <head>
         <link href="https://fonts.cdnfonts.com/css/now" rel="stylesheet" />
         <link rel="stylesheet" href="https://use.typekit.net/fxw5jnj.css" />

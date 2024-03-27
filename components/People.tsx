@@ -31,7 +31,7 @@ function People() {
       <h3 className="uppercase text-[2rem] font-seasons xl:text-[4rem]  pt-16 ">
         Důležité osoby
       </h3>
-      <div className="hidden xl:flex h-[70vh] w-full  flex-row items-center justify-center">
+      <div className="hidden xl:flex h-[60vh] w-full  flex-row items-center justify-center">
         <AnimatedTooltip items={people} />
       </div>
       <div className="min-h-screen w-full xl:hidden flex flex-col lg:flex-row items-center justify-center py-8 space-y-5">

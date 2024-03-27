@@ -17,7 +17,7 @@ function About() {
           možná nějaké té slzy, ale jen té šťastné. Těšíme se na vás!
         </p>
       </div>
-      <div className="relative min-h-[100svh] -top-24 md:-top-40 2xl:-top-60 space-y-6 md:space-y-10 lg:space-y-0 w-full p-8 lg:p-4 flex flex-col lg:flex-row items-center justify-evenly ">
+      <div className="relative h-[100svh] xl:h-[100vh] -top-24 md:-top-40 2xl:-top-60 space-y-6 md:space-y-10 lg:space-y-0 w-full p-8 lg:p-4 flex flex-col lg:flex-row items-center justify-evenly ">
         <div className="relative h-[50vh] lg:h-[70vh] w-full lg:w-[22%] bg-bezova rounded-md">
           <Image
             src={"/img-855.jpg"}
@@ -51,7 +51,7 @@ function About() {
           />
         </div>
       </div>
-      <div className="relative -top-16 lg:-top-32 2xl:-top-48 h-[2px] w-3/4 mx-auto bg-zelena"></div>
+      <div className="relative -top-16 h-[2px] w-3/4 mx-auto bg-zelena"></div>
     </div>
   );
 }

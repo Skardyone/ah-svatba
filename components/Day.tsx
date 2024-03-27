@@ -18,7 +18,7 @@ import { PiSneakerMoveBold } from "react-icons/pi";
 function Day() {
   return (
     <div className=" xl:h-screen w-full py-6 px-8 xl:py-16 flex flex-col items-center xl:space-y-10">
-      <h2 className="text-center uppercase  m-4 text-[2rem] xl:text-[4rem]">
+      <h2 className="text-center uppercase  m-4 text-[2rem] xl:text-[4rem] font-seasons">
         svatební den
       </h2>
       <div className="w-full h-[25vh] xl:h-[30vh] flex flex-row xl:flex-row items-center justify-around">
