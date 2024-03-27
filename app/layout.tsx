@@ -18,6 +18,8 @@ export default function RootLayout({
         <link rel="stylesheet" href="https://use.typekit.net/fxw5jnj.css" />
         <link href="https://fonts.cdnfonts.com/css/lovan" rel="stylesheet"/>
         <link href="https://fonts.cdnfonts.com/css/celine-sans" rel="stylesheet"/>
+        <link href="https://fonts.cdnfonts.com/css/svarge" rel="stylesheet" />
+                
                 
       </head>
       <body>{children}</body>

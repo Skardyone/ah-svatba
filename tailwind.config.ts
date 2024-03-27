@@ -32,6 +32,7 @@ const config = {
       seasons : ["the-seasons","sans-serif"],
       lovan : ["Lovan","sans-serif"],
       celine : ["Celine Sans","sans-serif"],
+      svarge : ["Svarge","sans-serif"],
     },
     extend: {
       keyframes: {
