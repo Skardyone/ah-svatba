@@ -45,9 +45,9 @@ function People() {
               width={250}
               src={item.image}
               alt={item.name}
-              className=" object-cover !m-0 !p-0 object-top rounded-full h-40 w-40 border-4 group-hover:scale-105 group-hover:z-30 border-bezova  relative transition duration-500"
+              className=" object-cover !m-0 !p-0 object-top rounded-full h-40 md:h-60 w-40 md:w-60 border-4 group-hover:scale-105 group-hover:z-30 border-bezova  relative transition duration-500"
             />
-            <span className="text-lg">{item.name}</span>
+            <span className="text-lg md:text-2xl">{item.name}</span>
             <span className="text-base">{item.designation}</span>
           </div>
         ))}
