@@ -38,7 +38,7 @@ function People() {
         {people.map((item) => (
           <div
             key={item.id}
-            className="flex flex-col items-center justify-center font-bold"
+            className="flex flex-col items-center justify-center"
           >
             <Image
               height={250}
