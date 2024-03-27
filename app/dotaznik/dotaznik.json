@@ -1,0 +1,141 @@
+{
+   "json": {
+    "locale": "cs",
+    "title": "Potvrzení účasti",
+    "description": {
+     "cs": "jedna pozvánka = jednou vyplnit"
+    },
+    "logoPosition": "right",
+    "completedHtml": {
+     "cs": "<h3>Děkujeme za vyplnění!</h3>"
+    },
+    "completedBeforeHtml": {
+     "cs": "<h3>Naše záznamy ukazují, že jste tento formulář již vyplnil/a.</h3>"
+    },
+    "loadingHtml": {
+     "cs": "<h3>Probíhá načítání ...</h3>"
+    },
+    "pages": [
+     {
+      "name": "page1",
+      "elements": [
+       {
+        "type": "text",
+        "name": "jmeno",
+        "title": {
+         "cs": "Jméno"
+        },
+        "description": {
+         "cs": "Zadejte prosím jméno, ideálně z pozvánky."
+        },
+        "isRequired": true,
+        "placeholder": {
+         "cs": "Jméno"
+        }
+       },
+       {
+        "type": "boolean",
+        "name": "ucast",
+        "title": {
+         "cs": "Dorazíte k nám na svatbu?"
+        }
+       },
+       {
+        "type": "text",
+        "name": "pocest_ucast",
+        "visibleIf": "{ucast} = true",
+        "title": {
+         "cs": "Počet účastníků"
+        },
+        "isRequired": true,
+        "validators": [
+         {
+          "type": "numeric",
+          "text": {
+           "cs": "Zadejte číslo"
+          },
+          "minValue": 0,
+          "maxValue": 50
+         }
+        ],
+        "inputType": "number",
+        "autocomplete": "name",
+        "min": 1,
+        "max": 20,
+        "minErrorText": {
+         "cs": "Zadejte hodnotu větší než  {0}"
+        }
+       },
+       {
+        "type": "comment",
+        "name": "ucastnici",
+        "visibleIf": "{ucast} = true",
+        "title": {
+         "cs": "Vypište účastníky:"
+        },
+        "isRequired": true
+       },
+       {
+        "type": "boolean",
+        "name": "presnoc",
+        "visibleIf": "{ucast} = true",
+        "title": {
+         "cs": "Budu/budeme zůstávat přes noc."
+        },
+        "isRequired": true
+       },
+       {
+        "type": "radiogroup",
+        "name": "ubytovani",
+        "visibleIf": "{presnoc} = true",
+        "title": {
+         "cs": "Budu/budu nocovat v:"
+        },
+        "isRequired": true,
+        "requiredIf": "{presnoc} = true",
+        "choices": [
+         {
+          "value": "Item 1",
+          "text": {
+           "cs": "Stan"
+          }
+         },
+         {
+          "value": "Item 2",
+          "text": {
+           "cs": "Penzion"
+          }
+         },
+         {
+          "value": "Item 3",
+          "text": {
+           "cs": "Hotel"
+          }
+         },
+         {
+          "value": "Item 4",
+          "text": {
+           "cs": "Auto/Obytňák/..."
+          }
+         },
+         {
+          "value": "Item 5",
+          "text": {
+           "cs": "Pod stolem"
+          }
+         }
+        ]
+       },
+       {
+        "type": "comment",
+        "name": "komentar",
+        "title": {
+         "cs": "Chcete nám sdělit něco důležitého navíc?"
+        }
+       }
+      ]
+     }
+    ],
+    "clearInvisibleValues": "none",
+    "widthMode": "responsive"
+   }}

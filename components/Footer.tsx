@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button } from './ui/button'
+import Link from 'next/link'
 
 function Footer() {
   return (
@@ -12,7 +13,7 @@ function Footer() {
         </div>
         <div className='flex flex-col items-center justify-center font-svarge gap-4 xl:text-[2rem]'>
             <span>Prosím vyplňte formulář zde:</span>
-            <Button size={"lg"} variant={'outline'} className='border-bezova uppercase font-bold'>Potvrdit účast</Button>
+            <Link href={"/dotaznik"}><Button size={"lg"} variant={'outline'} className='border-bezova uppercase font-bold'>Potvrdit účast</Button></Link>
         </div>
     </div>
   )
