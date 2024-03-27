@@ -16,6 +16,9 @@ export default function RootLayout({
       <head>
         <link href="https://fonts.cdnfonts.com/css/now" rel="stylesheet" />
         <link rel="stylesheet" href="https://use.typekit.net/fxw5jnj.css" />
+        <link href="https://fonts.cdnfonts.com/css/lovan" rel="stylesheet"/>
+        <link href="https://fonts.cdnfonts.com/css/celine-sans" rel="stylesheet"/>
+                
       </head>
       <body>{children}</body>
     </html>

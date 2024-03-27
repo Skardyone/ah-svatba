@@ -30,6 +30,8 @@ const config = {
     fontFamily: {
       now : ["Now","sans-serif"],
       seasons : ["the-seasons","sans-serif"],
+      lovan : ["Lovan","sans-serif"],
+      celine : ["Celine Sans","sans-serif"],
     },
     extend: {
       keyframes: {
