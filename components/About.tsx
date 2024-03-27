@@ -14,7 +14,7 @@ function About() {
           tanec. Ačkoli byly poté naše životní směry rozdílné, dokázali jsme si
           k sobě opět najít cestu a nyní plánujeme společný život. Takže, naše
           milá rodino a přátelé, připravte se na jízdu plnou lásky smíchu a
-          možná nějaké té slzy (ale jen té šťastné). Těšíme se na vás!
+          možná nějaké té slzy, ale jen té šťastné. Těšíme se na vás!
         </p>
       </div>
       <div className="relative min-h-[100svh] -top-24 md:-top-40 2xl:-top-60 space-y-6 md:space-y-10 lg:space-y-0 w-full p-8 lg:p-4 flex flex-col lg:flex-row items-center justify-evenly ">
