@@ -7,7 +7,7 @@ function Hero() {
     <div className="h-[100svh] w-full flex flex-col items-center justify-center py-8 lg:pt-32">
       <div
         id="bg"
-        className="w-full h-full absolute top-0 left-0 bg-[url('/eucalypto.png')] bg-no-repeat bg-top bg-contain opacity-40"
+        className="w-full h-full absolute top-0 left-0 bg-[url('/eucalypto.png')] bg-no-repeat bg-top bg-cover opacity-30"
       ></div>
       <Herotext />
 
