@@ -6,15 +6,15 @@ function About() {
     <div className="min-h-screen w-full">
       <div className="h-[90vh] md:h-[70vh] w-full bg-zelena flex flex-row justify-center items-center lg:py-8">
         <p className="w-full p-6 md:p-10 lg:w-[70%] text-base md:text-xl lg:text-xl font-bold tracking-wider lin">
-          Vítejte na našem svatebním webu! Ne, tohle není jen další stránka s
-          roztomilými koťátky, ani blog o tom, jak se naučit pletení v pěti
-          jednoduchých krocích. Je to místo, kde jsme se rozhodli sdílet svou
-          cestu k oltáři, a vy jste ti šťastlivci, kteří to budou sledovat z
-          první řady. Nebojte se, i když máme občas tendenci spadnout do pasti
-          romantických klišé, snažíme se držet nohy na zemi. <br /> Takže, naše milá
-          rodino a přátelé, připravte se na jízdu plnou lásky, smíchu a možná
-          nějaké té slzy (ale jen té šťastné). Tak pojďte s námi na tuhle
-          bláznivou jízdu zvanou svatba. Těšíme se na vás!
+          Vítejte na našem svatebním webu, kde jsme se rozhodli sdílet svou
+          cestu k oltáři. Naše společná cesta začala před více jak dvaceti lety
+          na základní škole, kdy ani jednoho z nás nenapadlo, že si jednoho dne
+          řekneme své "ANO". Spousta bláznivých zážitků byla zakončena tanečním
+          kurzem, kde jsme si nevědomky natrénovali kroky na první novomanželský
+          tanec. Ačkoli byly poté naše životní směry rozdílné, dokázali jsme si
+          k sobě opět najít cestu a nyní plánujeme společný život. Takže, naše
+          milá rodino a přátelé, připravte se na jízdu plnou lásky smíchu a
+          možná nějaké té slzy <span>&#40;</span>ale jen té šťastné<span>&#41;</span>. Těšíme se na vás!
         </p>
       </div>
       <div className="relative min-h-[100svh] -top-24 md:-top-40 2xl:-top-60 space-y-6 md:space-y-10 lg:space-y-0 w-full p-8 lg:p-4 flex flex-col lg:flex-row items-center justify-evenly ">
