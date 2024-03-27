@@ -14,13 +14,8 @@ function Areal() {
     <div className="xl:h-[80vh] w-full bg-zelena flex flex-col lg:flex-row items-center justify-center">
       <div className="h-full w-full flex flex-col items-center justify-center">
         <div className="w-full h-[40vh] md:h-[30vh] xl:h-1/2 p-6 xl:p-6 flex flex-col items-center justify-center space-y-5 font-bold text-base xl:text-xl">
-          <h3 className="text-lg xl:text-2xl">Statek Háječek</h3>
           <p>
-            - se nachází na samotě u lesa nedaleko obce Hlohovice. Pro svatební
-            den je k dispozici celý areál. Je tedy zajištěna dostatečná kapacita
-            pro parkování. Pokud vám nebyla nabídnuta možnost ubytování, tak je
-            zde možné přenocovat ve vlastním stanu, případně vám můžeme
-            doporučit ubytování v blízkém okolí.
+         Statek Háječek se nachází na samotě u lesa nedaleko obce Hlohovice. Pro stavební den je k dispozici celý areál a je tedy zajištěna dostatečná kapacita pro parkování. Ubytování v objektech není možné nabídnout všem, a tak je zde možné přenocovat ve vlastním stanu nebo obytném autě na přilehlé louce. Případně můžeme doporučit ubytování v blízkém okolí.
           </p>
         </div>
         <div className="w-full h-[30vh] xl:h-1/2 bg-bezova">
