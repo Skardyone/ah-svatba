@@ -1,10 +1,19 @@
+import Image from "next/image";
 import React from "react";
 import { GiKnifeFork } from "react-icons/gi";
 
 function Food() {
   return (
-    <div className="h-[50vh] xl:h-[30vh] xl:my-8 w-full px-6 md:w-3/4 xl:w-3/4 font-light text-base md:text-xl xl:text-xl flex flex-col items-center justify-center border-t-2 border-zelena pb-8">
-      <span className="text-[4rem]"><GiKnifeFork /></span>
+    <div className="h-[60vh] xl:h-[30vh] xl:my-8 w-full px-6 md:w-3/4 xl:w-3/4 font-light text-base md:text-xl xl:text-xl flex flex-col items-center justify-center border-t-2 border-zelena pb-8">
+      <div className="relative w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[100px] lg:h-[100px] xl:w-[100px] xl:h-[100px] my-8">
+              {/* <FaRegCalendarAlt /> */}
+              <Image
+                src="/ikony/obed.png"
+                alt="misto"
+                fill
+                className="object-center object-contain"
+              />
+            </div>
       <p className="">
         Během celého dne bude pro všechny zajištěno jídlo a nápoje. Před obřadem
         bude na vás čekat drobné občerstvení (knoflíky u košile musí vydržet

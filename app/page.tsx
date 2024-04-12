@@ -16,7 +16,7 @@ export default function Home() {
       <Food/>
       <Areal/>
       <People/>
-      <Footer/>
+      <Footer/>      
     </main>
   );
 }
