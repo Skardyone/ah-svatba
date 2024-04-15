@@ -25,7 +25,7 @@ function Areal() {
               <CarouselItem className="h-full w-full">
                 <div className="w-full h-full relative">
                   <Image
-                    src={"/statek/1.jpg"}
+                    src={"/statek/1.JPG"}
                     alt="statek1"
                     className="object-center object-cover"
                     fill
@@ -35,8 +35,8 @@ function Areal() {
               <CarouselItem className="h-full w-full">
                 <div className="w-full h-full relative">
                   <Image
-                    src={"/statek/2.jpg"}
-                    alt="statek1"
+                    src={"/statek/2.JPG"}
+                    alt="statek2"
                     className="object-center object-cover"
                     fill
                   />
@@ -45,8 +45,8 @@ function Areal() {
               <CarouselItem className="h-full w-full">
                 <div className="w-full h-full relative">
                   <Image
-                    src={"/statek/3.jpg"}
-                    alt="statek1"
+                    src={"/statek/3.JPG"}
+                    alt="statek3"
                     className="object-center object-cover"
                     fill
                   />
@@ -55,8 +55,8 @@ function Areal() {
               <CarouselItem className="h-full w-full">
                 <div className="w-full h-full relative">
                   <Image
-                    src={"/statek/4.jpg"}
-                    alt="statek1"
+                    src={"/statek/4.JPG"}
+                    alt="statek4"
                     className="object-center object-cover"
                     fill
                   />
@@ -65,7 +65,7 @@ function Areal() {
               <CarouselItem className="h-full w-full">
                 <div className="w-full h-full relative">
                   <Image
-                    src={"/statek/5.jpg"}
+                    src={"/statek/5.JPG"}
                     alt="statek1"
                     className="object-center object-cover"
                     fill
