@@ -16,7 +16,7 @@ function Food() {
             </div>
       <p className="">
         Během celého dne bude pro všechny zajištěno jídlo a nápoje. Před obřadem
-        bude na vás čekat drobné občerstvení (knoflíky u košile musí vydržet
+        na vás bude čekat drobné občerstvení (knoflíky u košile musí vydržet
         přes obřad). Slavnostní hostina bude zahrnovat společnou polévku s
         pestrým rautem. K odpolední kávě bude rozkrojen svatební dort. V
         podvečer bude zajištěno grilování a během večerní zábavy bude k
