@@ -25,7 +25,7 @@ function Areal() {
               <CarouselItem className="h-full w-full">
                 <div className="w-full h-full relative">
                   <Image
-                    src={"/statek2.jpg"}
+                    src={"/statek/1.jpg"}
                     alt="statek1"
                     className="object-center object-cover"
                     fill
@@ -35,7 +35,37 @@ function Areal() {
               <CarouselItem className="h-full w-full">
                 <div className="w-full h-full relative">
                   <Image
-                    src={"/statek.jpeg"}
+                    src={"/statek/2.jpg"}
+                    alt="statek1"
+                    className="object-center object-cover"
+                    fill
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="h-full w-full">
+                <div className="w-full h-full relative">
+                  <Image
+                    src={"/statek/3.jpg"}
+                    alt="statek1"
+                    className="object-center object-cover"
+                    fill
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="h-full w-full">
+                <div className="w-full h-full relative">
+                  <Image
+                    src={"/statek/4.jpg"}
+                    alt="statek1"
+                    className="object-center object-cover"
+                    fill
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="h-full w-full">
+                <div className="w-full h-full relative">
+                  <Image
+                    src={"/statek/5.jpg"}
                     alt="statek1"
                     className="object-center object-cover"
                     fill
