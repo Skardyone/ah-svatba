@@ -1,6 +1,7 @@
 import About from "@/components/About";
 import Areal from "@/components/Areal";
 import Day from "@/components/Day";
+import Dresscode from "@/components/Dresscode";
 import Food from "@/components/Food";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -16,6 +17,7 @@ export default function Home() {
       <Food/>
       <Areal/>
       <People/>
+      <Dresscode/>
       <Footer/>      
     </main>
   );

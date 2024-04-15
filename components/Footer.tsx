@@ -5,7 +5,7 @@ import Image from "next/image";
 
 function Footer() {
   return (
-    <div className="h-[80vh] md:h-[60vh] lg:h-[80vh] xl:h-[70vh] w-full bg-zelena flex flex-col items-center justify-evenly overflow-hidden">
+    <div className="w-full bg-zelena flex flex-col items-center justify-evenly overflow-hidden">
       <div className="w-full flex flex-col items-center px-8 xl:px-0 lg:w-1/2 xl:text-xl text-center font-light border-b-2 border-white pb-12 xl:py-8">
         <div className="relative w-[80px] h-[80px] md:w-[100px] md:h-[100px] lg:w-[100px] lg:h-[100px] xl:w-[100px] xl:h-[100px] my-8">
           {/* <FaRegCalendarAlt /> */}
